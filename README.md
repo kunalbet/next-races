@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Next to Go Races App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This App gets the race details from a REST endpoint and ALWAYS displays the next 5 races to start in 3 different categories. The races are sorted in accending order to the start time. Each race is shown with acountdown timer. Once the timer ends the race is in stated mode. It then deletes the started races after 30 seconds of display. The race list then refreshes to displays the next 5 races to start.
+
+This project was boostrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -10,6 +12,7 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+It also runs the express server that fetches the races at [http://localhost:4000](http://localhost:4000)
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.

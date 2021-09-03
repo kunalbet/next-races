@@ -14,6 +14,10 @@ This project was boostrapped with [Create React App](https://github.com/facebook
 
 In the project directory, you can run:
 
+### `npm install`
+
+This will install all the node module dependencies.
+
 ### `npm start`
 
 Runs the app in the development mode.\
